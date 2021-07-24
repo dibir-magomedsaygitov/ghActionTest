@@ -2,12 +2,9 @@
 #include "igl_functions.h"
 
 #include <igl/adjacency_list.h>
-#include <igl/boundary_loop.h>
-#include <igl/parula.h>
 
+#include <Eigen/Core>
 #include <numeric>
-
-#include "geolib.h"
 
 using namespace std;
 using namespace Eigen;

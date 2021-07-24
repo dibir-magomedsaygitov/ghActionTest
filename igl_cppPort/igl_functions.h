@@ -1,7 +1,5 @@
 #pragma once
 
-#include <Eigen/Core>
-
 #if defined(RH_DLL_EXPORTS)
 
 /* Compiling XIGLLIB as a Windows DLL - export classes, functions, and globals
