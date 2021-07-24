@@ -167,11 +167,9 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="geolib.h" />
     <ClInclude Include="igl_functions.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="geolib.cpp" />
     <ClCompile Include="igl_functions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

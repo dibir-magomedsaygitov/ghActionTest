@@ -62,12 +62,8 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="iglGH_meshBoundLoop.cs" />
-    <Compile Include="iglGH_simpleAdd.cs" />
     <Compile Include="igl_GrassHopperInfo.cs" />
     <Compile Include="iglGH_meshAdjacentList.cs" />
-    <Compile Include="iglGH_meshIsoLine.cs" />
-    <Compile Include="iglGH_laplacian.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -76,9 +72,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\igl_RhinoCommon\igl-RhinoCommon.csproj">
+    <ProjectReference Include="..\igl_RhinoCommon\RhinoCommon.csproj">
       <Project>{fd9f533f-d593-4911-8567-da682c80e658}</Project>
-      <Name>igl-RhinoCommon</Name>
+      <Name>RhinoCommon</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
