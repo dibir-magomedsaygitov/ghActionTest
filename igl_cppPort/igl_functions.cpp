@@ -3,7 +3,6 @@
 
 #include <igl/adjacency_list.h>
 
-#include <Eigen/Core>
 #include <numeric>
 
 using namespace std;
