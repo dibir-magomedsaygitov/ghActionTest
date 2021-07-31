@@ -1,5 +1,6 @@
 #pragma once
-#include <Eigen/Core>
+//#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 
 #if defined(RH_DLL_EXPORTS)
 
