@@ -21,11 +21,11 @@ jobs:
     - name: Install dependencies from NuGet
       run: nuget install Grasshopper
 
-    - name: Download dependency lib. LibIGL, Eigen
-      run: |
-        git clone https://github.com/libigl/libigl.git ./external/libigl
-        git clone https://gitlab.com/libeigen/eigen.git ./external/eigen
-        set ILink_LibraryPath="./external/libigl/include;./external/eigen"
+    # - name: Download dependency lib. LibIGL, Eigen
+    #   run: |
+    #     git clone https://github.com/libigl/libigl.git ./external/libigl
+    #     git clone https://gitlab.com/libeigen/eigen.git ./external/eigen
+    #     set ILink_LibraryPath="./external/libigl/include;./external/eigen"
 
     - name: Install packages and dependencies
       run: |
